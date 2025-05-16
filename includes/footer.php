@@ -7,10 +7,12 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
                     <div class="footer-logo mb-20">
-                        <a href="index.html"><img src="<?= $app_path ?>assets/images/sps/logo/logo.png" alt="logo-img"></a>
+                        <a href="index.html"><img src="<?= $app_path ?>assets/images/sps/logo/logo.png"
+                                alt="logo-img"></a>
                     </div>
                     <div class="textwidget pb-30">
-                        <p>Whether you are an entrepreneur looking for an engineering team or an enterprise pursuing digital transformation we can help you bring your vision to reality.</p>
+                        <p>Whether you are an entrepreneur looking for an engineering team or an enterprise pursuing
+                            digital transformation we can help you bring your vision to reality.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
@@ -25,8 +27,8 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
                     <h3 class="widget-title">Products</h3>
                     <ul class="site-map">
-                        <li><a href="#">ABB Smart Communication Card</a></li>
-                        <li><a href="#">Google Manufacturing Data Engine</a></li>
+                        <li><a href="<?= $app_path ?>products/abb-smart.php">ABB Smart Communication Card</a></li>
+                        <li><a href=" #">Google Manufacturing Data Engine</a></li>
                         <li><a href="#">Google App Sheet</a></li>
                     </ul>
                 </div>

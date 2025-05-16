@@ -44,7 +44,8 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3">
                                 <div class="logo-part">
-                                    <a href="<?= $app_path ?>"><img src="<?= $app_path ?>assets/images/sps/logo/logo-2023.png" alt=""></a>
+                                    <a href="<?= $app_path ?>"><img
+                                            src="<?= $app_path ?>assets/images/sps/logo/logo-2023.png" alt=""></a>
                                 </div>
                                 <div class="mobile-menu">
                                     <a href="#" class="rs-menu-toggle rs-menu-toggle-close secondary">
@@ -66,7 +67,8 @@
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Products</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="#">ABB Smart Communication Card</a>
+                                                        <li><a href="<?= $app_path ?>products/abb-smart.php">ABB Smart
+                                                                Communication Card</a>
                                                         </li>
                                                         <li><a href="#">Google Manufacturing Data Engine</a> </li>
                                                         <li><a href="#">Google App Sheet</a>
@@ -77,7 +79,8 @@
                                                     <a href="#">Solutions</a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item-has-children">
-                                                            <a href="#">Digital Architecture Configurator and Control Panel Designer</a>
+                                                            <a href="#">Digital Architecture Configurator and Control
+                                                                Panel Designer</a>
                                                         </li>
                                                         <li class="menu-item-has-children">
                                                             <a href="#">Smart Monitoring and Control Application</a>
