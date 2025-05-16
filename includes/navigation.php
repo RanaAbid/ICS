@@ -70,8 +70,10 @@
                                                         <li><a href="<?= $app_path ?>products/abb-smart.php">ABB Smart
                                                                 Communication Card</a>
                                                         </li>
-                                                        <li><a href="#">Google Manufacturing Data Engine</a> </li>
-                                                        <li><a href="#">Google App Sheet</a>
+                                                        <li><a href="<?= $app_path ?>products/abb-smart.php">Google
+                                                                Manufacturing Data Engine</a> </li>
+                                                        <li><a href="<?= $app_path ?>products/abb-smart.php">Google App
+                                                                Sheet</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -79,22 +81,27 @@
                                                     <a href="#">Solutions</a>
                                                     <ul class="sub-menu">
                                                         <li class="menu-item-has-children">
-                                                            <a href="#">Digital Architecture Configurator and Control
+                                                            <a
+                                                                href="<?= $app_path ?>solutions/digital-architecture.php">Digital
+                                                                Architecture Configurator and Control
                                                                 Panel Designer</a>
                                                         </li>
                                                         <li class="menu-item-has-children">
-                                                            <a href="#">Smart Monitoring and Control Application</a>
+                                                            <a href="<?= $app_path ?>solutions/smart-monitoring.php">Smart
+                                                                Monitoring and Control Application</a>
                                                         </li>
                                                         <li class="menu-item-has-children">
-                                                            <a href="#">On-Prem Solution</a>
+                                                            <a href="<?= $app_path ?>solutions/on-prem.php">On-Prem
+                                                                Solution</a>
                                                         </li>
                                                         <li class="menu-item-has-children">
-                                                            <a href="#">Pumping Application</a>
+                                                            <a href="<?= $app_path ?>solutions/pumping.php">Pumping
+                                                                Application</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= $app_path ?>contact-us/">Contact</a>
+                                                    <a href=" <?= $app_path ?>contact-us/">Contact</a>
                                                 </li>
                                             </ul> <!-- //.nav-menu -->
                                         </nav>

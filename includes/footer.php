@@ -18,10 +18,12 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
                     <h3 class="widget-title">Solutions</h3>
                     <ul class="site-map">
-                        <li><a href="#">Digital Architecture Configurator and Control Panel Designer</a></li>
-                        <li><a href="#">Smart Monitoring and Control Application</a></li>
-                        <li><a href="#">On-Prem Solution</a></li>
-                        <li><a href="#">Pumping Application</a></li>
+                        <li><a href="<?= $app_path ?>solutions/digital-architecture.php">Digital Architecture
+                                Configurator and Control Panel Designer</a></li>
+                        <li><a href="<?= $app_path ?>solutions/smart-monitoring.php">Smart Monitoring and Control
+                                Application</a></li>
+                        <li><a href="<?= $app_path ?>solutions/on-prem.php">On-Prem Solution</a></li>
+                        <li><a href="<?= $app_path ?>solutions/pumping.php">Pumping Application</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
