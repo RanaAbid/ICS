@@ -110,7 +110,7 @@ include("includes/header.php");
 <!-- Services Section End -->
 
 <!-- About Section Start -->
-<div class="rs-about bg4 pt-120 pb-120 md-pt-80 md-pb-80">
+<div class="rs-about bg4 pt-70 pb-70 md-pt-80 md-pb-80">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-50">
@@ -147,12 +147,12 @@ include("includes/header.php");
 <!-- About Section End -->
 
 <!-- Project Section Start -->
-<div class="rs-project bg5 style1 pt-120 md-pt-80">
+<div class="rs-project bg5 style1 pt-70 md-pt-80">
     <div class="container">
         <div class="sec-title2 text-center mb-45 md-mb-30">
             <span class="sub-text white-color">Solutions</span>
             <h2 class="title white-color">
-                We Are Offering All Kinds of IT Solutions Services
+                We Are Offering All Kinds of Industrial Automation and Control Solutions Services
             </h2>
         </div>
         <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true"
