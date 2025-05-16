@@ -82,20 +82,10 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 text-right md-mb-10 order-last">
-                    <ul class="copy-right-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="faq.html">FAQs</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
+            <div class="row y-middle text-center">
+                <div class="col-lg-12">
                     <div class="copyright">
-                        <p>&copy; 2021 All Rights Reserved. Developed By <a href="http://rstheme.com/">RSTheme</a>
-                        </p>
+                        <p><?php echo date("Y"); ?> Software Productivity Strategists Inc. All Rights Reserved.</p>
                     </div>
                 </div>
 

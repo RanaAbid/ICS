@@ -7067,10 +7067,10 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-project.style1 .project-item .project-content .title {
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 600;
-  margin-bottom: 8px;
+      font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 .rs-project.style1 .project-item .project-content .title a {
   color: #101010;
@@ -7083,6 +7083,11 @@ body .search-modal .close:hover {
 }
 .rs-project.style1 .project-item .project-content .category a {
   color: #106eea;
+  font-weight: 600;
+}
+.rs-project.style1 .project-item .project-content .category a:hover {
+  color: #000060;
+  cursor: pointer;
 }
 .rs-project.style1 .project-item:hover .project-img img {
   transform: scale(1.3);
