@@ -164,8 +164,7 @@ include("includes/header.php");
             data-md-device-dots="false">
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/project/main-home/1.jpg"
-                            alt="images"></a>
+                    <a href="#"><img src="assets/images/sps/solution/q1.png" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
                     <h3 class="title"><a href="#">Digital Architecture Configurator and Control Panel Designer</a></h3>
@@ -174,8 +173,7 @@ include("includes/header.php");
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/project/main-home/2.jpg"
-                            alt="images"></a>
+                    <a href="#"><img src="assets/images/sps/solution/q2.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
                     <h3 class="title"><a href="#">Smart Monitoring and Control Application</a></h3>
@@ -184,8 +182,7 @@ include("includes/header.php");
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/project/main-home/3.jpg"
-                            alt="images"></a>
+                    <a href="#"><img src="assets/images/sps/solution/q3.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
                     <h3 class="title"><a href="#">On-Prem Solution</a></h3>
@@ -194,8 +191,7 @@ include("includes/header.php");
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/project/main-home/4.jpg"
-                            alt="images"></a>
+                    <a href="#"><img src="assets/images/sps/solution/q4.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
                     <h3 class="title"><a href="#">Pumping Application</a></h3>
