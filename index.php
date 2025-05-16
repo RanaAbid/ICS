@@ -137,7 +137,7 @@ include("includes/header.php");
                         </p>
                     </div>
                     <div class="btn-part">
-                        <a class="readon learn-more contact-us" href="contact.html">Learn More</a>
+                        <a class="readon learn-more contact-us" href="#">Learn More</a>
                     </div>
                 </div>
             </div>
