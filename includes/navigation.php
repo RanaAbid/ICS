@@ -59,7 +59,7 @@
                                         <nav class="rs-menu pr-100 lg-pr-50 md-pr-0">
                                             <ul class="nav-menu">
                                                 <li class="current-menu-item">
-                                                    <a href="about.html">Home</a>
+                                                    <a href="<?= $app_path ?>">Home</a>
                                                 </li>
                                                 <li>
                                                     <a href="<?= $app_path ?>about-us/">About Us</a>

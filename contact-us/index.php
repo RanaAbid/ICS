@@ -17,7 +17,7 @@ include("../includes/header.php");
 <!-- Breadcrumbs End -->
 
 <!-- Contact Section Start -->
-<div class="rs-contact pt-120 md-pt-80">
+<div class="rs-contact pt-70 md-pt-80 pb-70">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 md-mb-60">
@@ -41,7 +41,7 @@ include("../includes/header.php");
                         </div>
                         <div class="address-text">
                             <span class="label">Phone:</span>
-                            <a href="#">support@rstheme.com</a>
+                            <a href="#">support@spsnet.com</a>
                         </div>
                     </div>
                     <div class="address-box">
@@ -64,7 +64,7 @@ include("../includes/header.php");
                     </div>
                     <div id="form-messages"></div>
                     <form id="contact-form" method="post"
-                        action="https://rstheme.com/products/html/braintech/mailer.php">
+                        action="">
                         <fieldset>
                             <div class="row">
                                 <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
