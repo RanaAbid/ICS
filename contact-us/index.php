@@ -100,10 +100,6 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-    <div class="map-canvas pt-120 md-pt-80">
-        <iframe
-            src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
-    </div>
 </div>
 <!-- Contact Section Start -->
 <?php

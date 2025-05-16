@@ -44,7 +44,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3">
                                 <div class="logo-part">
-                                    <a href="index.html"><img src="<?= $app_path ?>assets/images/sps/logo/logo-2023.png" alt=""></a>
+                                    <a href="<?= $app_path ?>"><img src="<?= $app_path ?>assets/images/sps/logo/logo-2023.png" alt=""></a>
                                 </div>
                                 <div class="mobile-menu">
                                     <a href="#" class="rs-menu-toggle rs-menu-toggle-close secondary">
