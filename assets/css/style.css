@@ -3635,13 +3635,13 @@ body .search-modal .close:hover {
 }
 .rs-banner.style3.modify1 .images-part {
   position: absolute;
-  right: 15%;
+  right: 12%;
   top: 41%;
   transform: translateY(-50%);
   z-index: 2;
 }
 .rs-banner.style3.modify1 .images-part img {
-  max-width: 550px;
+  max-width: 600px;
     border-radius: 10px;
 }
 .rs-banner.style3.modify2 {
