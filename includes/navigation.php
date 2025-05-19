@@ -70,9 +70,9 @@
                                                         <li><a href="<?= $app_path ?>products/abb-smart.php">ABB Smart
                                                                 Communication Card</a>
                                                         </li>
-                                                        <li><a href="<?= $app_path ?>products/abb-smart.php">Google
+                                                        <li><a href="<?= $app_path ?>products/google-manufacturing.php">Google
                                                                 Manufacturing Data Engine</a> </li>
-                                                        <li><a href="<?= $app_path ?>products/abb-smart.php">Google App
+                                                        <li><a href="<?= $app_path ?>products/google-app.php">Google App
                                                                 Sheet</a>
                                                         </li>
                                                     </ul>

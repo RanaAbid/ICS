@@ -26,18 +26,17 @@ include("../includes/header.php");
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
                 <div class="sec-title4">
-                    <span class="sub-text">Digital Architecture Configurator</span>
-                    <h2 class="title">Simplify Electrical Design with Smart Control Panel Tools</h2>
+                    <span class="sub-text">Smart Monitoring and Control Application</span>
+                    <h2 class="title">Optimize Industrial Operations with Real-Time Insights</h2>
                     <div class="heading-line"></div>
                     <div class="desc desc-big">
-                        The Digital Architecture Configurator enables streamlined control panel design and architecture
-                        planning for modern electrical systems.
+                        The Smart Monitoring and Control Application empowers real-time supervision, data analytics, and
+                        intelligent control of industrial systems.
                     </div>
                     <div class="desc">
-                        Designed to support engineers and integrators, the platform allows for intuitive drag-and-drop
-                        panel design, configuration of smart devices, and real-time validation of electrical
-                        architecture. Enhance productivity, reduce errors, and accelerate deployment with seamless CAD
-                        integration and automated documentation.
+                        Built for operations teams and system integrators, the platform provides centralized dashboards,
+                        live data streams, and automated alerting. Gain full visibility, ensure compliance, and drive
+                        operational excellence with seamless integration to sensors, PLCs, and control hardware.
                     </div>
                     <!-- <div class="btn-part mt-45">
                         <a class="readon learn-more" href="contact.html">Contact Us</a>
@@ -47,33 +46,32 @@ include("../includes/header.php");
             <div class="col-lg-6">
                 <div class="software-img">
                     <img src="<?= $app_path ?>assets/images/services/single/1.jpg"
-                        alt="Digital Architecture Configurator" class="rounded-pill">
+                        alt="Smart Monitoring and Control Application" class="rounded-pill">
                 </div>
             </div>
             <div class="col-lg-8 md-mb-50">
-                <h2 class="mt-34">Responsive Pixel Perfect Design</h2>
+                <h2 class="mt-34">Reliable, Scalable, and User-Friendly</h2>
                 <p>
-                    Our Control Panel Designer is crafted with user-centric design in mind. Enjoy a pixel-perfect,
-                    responsive interface that adapts seamlessly across devices, ensuring accuracy and efficiency during
-                    configuration. Optimize layout space, preview functional designs, and export engineering-ready
-                    outputs in real-time.
+                    Our Smart Monitoring application is designed for mission-critical environments. Experience a clean,
+                    responsive interface that adapts across all devices, offering accurate system data, performance
+                    indicators, and actionable alerts in real-time.
                 </p>
                 <ul class="listing-style">
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Intuitive interface with drag-and-drop components</span>
+                        <span>Live dashboards for data visualization and KPIs</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Automated wiring diagrams and bill of materials</span>
+                        <span>Custom alerts and event-driven automation</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Real-time validation and compliance checks</span>
+                        <span>Integration with PLCs, SCADA, and IoT sensors</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Export-ready for CAD tools and documentation suites</span>
+                        <span>Secure access and role-based control management</span>
                     </li>
                 </ul>
             </div>
@@ -87,14 +85,13 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png"
-                                alt="Visual Design Interface">
+                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-Time Dashboards">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Visual Design Interface</h3>
+                            <h3 class="services-title">Real-Time Dashboards</h3>
                             <p class="services-desc">
-                                Build your electrical architecture with an easy-to-use graphical interface and component
-                                library.
+                                Monitor system performance and sensor data through interactive, real-time visual
+                                dashboards.
                             </p>
                         </div>
                     </div>
@@ -102,13 +99,13 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="System Validation">
+                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Event Monitoring">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Built-in System Validation</h3>
+                            <h3 class="services-title">Intelligent Event Monitoring</h3>
                             <p class="services-desc">
-                                Instantly check for wiring errors, standard compliance, and compatibility before
-                                deployment.
+                                Automatically detect anomalies, trigger alerts, and log events for traceability and
+                                compliance.
                             </p>
                         </div>
                     </div>
@@ -116,13 +113,12 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="CAD & Export Tools">
+                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Device Integration">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">CAD & Export Tools</h3>
+                            <h3 class="services-title">Device & Protocol Integration</h3>
                             <p class="services-desc">
-                                Generate CAD-ready files, schematics, and panel layouts for seamless integration into
-                                engineering workflows.
+                                Seamlessly connect with industrial devices using Modbus, OPC-UA, MQTT, and more.
                             </p>
                         </div>
                     </div>

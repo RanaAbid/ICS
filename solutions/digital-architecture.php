@@ -121,8 +121,7 @@ include("../includes/header.php");
                         <div class="services-content">
                             <h3 class="services-title">CAD & Export Tools</h3>
                             <p class="services-desc">
-                                Generate CAD-ready files, schematics, and panel layouts for seamless integration into
-                                engineering workflows.
+                                Generate CAD-ready files, schematics, and panel layouts for integration.
                             </p>
                         </div>
                     </div>
