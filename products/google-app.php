@@ -26,17 +26,17 @@ include("../includes/header.php");
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
                 <div class="sec-title4">
-                    <span class="sub-text">ABB Smart Communication Card</span>
-                    <h2 class="title">Streamline Power Distribution with Intelligent Automation</h2>
+                    <span class="sub-text">Google AppSheet</span>
+                    <h2 class="title">Empower Innovation with No-Code App Development</h2>
                     <div class="heading-line"></div>
                     <div class="desc desc-big">
-                        The ABB Smart Communication Card enables seamless integration and real-time monitoring of
-                        electrical systems, enhancing automation and operational efficiency.
+                        Google AppSheet allows organizations to build powerful mobile and web applications without
+                        writing a single line of code—streamlining workflows and accelerating digital transformation.
                     </div>
                     <div class="desc">
-                        Designed to connect ABB devices to SCADA, PLCs, and Building Management Systems, it supports
-                        protocols like Modbus TCP/IP. Get instant insights, perform remote diagnostics, and ensure
-                        system reliability — all from a centralized interface.
+                        Connect to your data from Google Sheets, Excel, SQL, and other sources to create custom
+                        applications tailored to your business needs. Automate processes, collect insights, and manage
+                        operations from anywhere with ease.
                     </div>
                     <!-- <div class="btn-part mt-45">
                         <a class="readon learn-more" href="contact.html">Contact Us</a>
@@ -45,37 +45,35 @@ include("../includes/header.php");
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/about/about-us/1.jpg" alt="ABB Smart Communication Card">
+                    <img src="<?= $app_path ?>assets/images/about/about-us/appsheet.jpg" alt="Google AppSheet">
                 </div>
             </div>
             <div class="col-lg-8 md-mb-50">
                 <div class="services-img">
-                    <img src="assets/images/services/single/1.jpg" alt="">
+                    <img src="assets/images/services/single/appsheet-demo.jpg" alt="AppSheet Demo">
                 </div>
                 <h2 class="mt-34">Responsive Pixel Perfect Design</h2>
                 <p>
-                    Cras enim urna, interdum nec porttitor vitae, sollicitudin eu eros. Praesent eget mollis nulla, non
-                    lacinia urna. Donec sit amet neque auctor, ornare dui rutrum, condimentum justo. Duis dictum, ex
-                    accumsan eleifend eleifend, ex justo aliquam nunc, in ultrices ante quam eget massa. Sed
-                    scelerisque, odio eu tempor pulvinar, magna tortor finibus lorem, ut mattis tellus nunc ut quam.
-                    Curabitur quis ornare leo. Suspendisse bibendum nibh non turpis vestibulum pellentesque.
+                    Google AppSheet delivers fully responsive, pixel-perfect applications that look great across
+                    devices. Easily customize UI components, apply themes, and adapt layouts to deliver a polished user
+                    experience with minimal effort.
                 </p>
                 <ul class="listing-style">
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Sed ut perspiciatis unde omnis iste natus error</span>
+                        <span>No-code platform for rapid app development</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</span>
+                        <span>Real-time updates and automation across workflows</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Accusamus et iusto odio dignissimos ducimus qui blanditiis</span>
+                        <span>Secure integrations with Google Workspace and databases</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Nam libero tempore, cum soluta nobis est eligendi optio cumque</span>
+                        <span>Deploy apps instantly to mobile and web platforms</span>
                     </li>
                 </ul>
             </div>
@@ -89,13 +87,13 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-time Monitoring">
+                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Workflow Automation">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Real-Time Monitoring</h3>
+                            <h3 class="services-title">Workflow Automation</h3>
                             <p class="services-desc">
-                                Enables real-time status updates and diagnostics of ABB devices through seamless
-                                communication.
+                                Automate repetitive tasks with custom workflows and notifications powered by AppSheet's
+                                logic builder.
                             </p>
                         </div>
                     </div>
@@ -103,12 +101,13 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Easy Integration">
+                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Data Integration">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Easy System Integration</h3>
+                            <h3 class="services-title">Seamless Data Integration</h3>
                             <p class="services-desc">
-                                Supports integration with SCADA, PLCs, and BMS via Modbus TCP/IP and other protocols.
+                                Connect and sync data from multiple sources including Google Sheets, Excel, SQL,
+                                Salesforce, and more.
                             </p>
                         </div>
                     </div>
@@ -116,13 +115,13 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Remote Accessibility">
+                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Cross-Platform Access">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Remote Accessibility</h3>
+                            <h3 class="services-title">Cross-Platform Accessibility</h3>
                             <p class="services-desc">
-                                Facilitates remote configuration, control, and performance tracking of ABB switchgear
-                                systems.
+                                Deploy applications that work on mobile devices, tablets, and browsers—ensuring access
+                                from anywhere.
                             </p>
                         </div>
                     </div>
@@ -133,6 +132,7 @@ include("../includes/header.php");
 
     <!-- Services Section End -->
 </div>
+
 <!-- Product Section End -->
 <?php
 include("../includes/footer.php");

@@ -26,56 +26,52 @@ include("../includes/header.php");
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
                 <div class="sec-title4">
-                    <span class="sub-text">ABB Smart Communication Card</span>
-                    <h2 class="title">Streamline Power Distribution with Intelligent Automation</h2>
+                    <span class="sub-text">Google Cloud for Manufacturing</span>
+                    <h2 class="title">Accelerate Digital Transformation in Manufacturing</h2>
                     <div class="heading-line"></div>
                     <div class="desc desc-big">
-                        The ABB Smart Communication Card enables seamless integration and real-time monitoring of
-                        electrical systems, enhancing automation and operational efficiency.
+                        Google Cloud empowers manufacturers with AI-driven insights, advanced analytics, and secure,
+                        scalable infrastructure to streamline operations and boost productivity.
                     </div>
                     <div class="desc">
-                        Designed to connect ABB devices to SCADA, PLCs, and Building Management Systems, it supports
-                        protocols like Modbus TCP/IP. Get instant insights, perform remote diagnostics, and ensure
-                        system reliability — all from a centralized interface.
+                        From factory floor to supply chain, leverage Google Cloud to connect assets, predict outcomes,
+                        and automate workflows. Integrate with ERP, MES, and IoT platforms to drive efficiency, reduce
+                        downtime, and achieve intelligent manufacturing at scale.
                     </div>
-                    <!-- <div class="btn-part mt-45">
-                        <a class="readon learn-more" href="contact.html">Contact Us</a>
-                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/about/about-us/1.jpg" alt="ABB Smart Communication Card">
+                    <img src="<?= $app_path ?>assets/images/about/about-us/google-manufacturing.jpg"
+                        alt="Google Cloud for Manufacturing">
                 </div>
             </div>
             <div class="col-lg-8 md-mb-50">
                 <div class="services-img">
-                    <img src="assets/images/services/single/1.jpg" alt="">
+                    <img src="assets/images/services/single/google-cloud-factory.jpg" alt="">
                 </div>
-                <h2 class="mt-34">Responsive Pixel Perfect Design</h2>
+                <h2 class="mt-34">Smarter Factories. Stronger Outcomes.</h2>
                 <p>
-                    Cras enim urna, interdum nec porttitor vitae, sollicitudin eu eros. Praesent eget mollis nulla, non
-                    lacinia urna. Donec sit amet neque auctor, ornare dui rutrum, condimentum justo. Duis dictum, ex
-                    accumsan eleifend eleifend, ex justo aliquam nunc, in ultrices ante quam eget massa. Sed
-                    scelerisque, odio eu tempor pulvinar, magna tortor finibus lorem, ut mattis tellus nunc ut quam.
-                    Curabitur quis ornare leo. Suspendisse bibendum nibh non turpis vestibulum pellentesque.
+                    Digitally transform your manufacturing processes using Google Cloud's powerful ecosystem. Use
+                    real-time data, predictive maintenance, and visual inspection tools powered by AI/ML to enhance
+                    quality control, reduce waste, and improve decision-making across operations.
                 </p>
                 <ul class="listing-style">
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Sed ut perspiciatis unde omnis iste natus error</span>
+                        <span>Unlock real-time visibility into production lines and supply chains</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</span>
+                        <span>Integrate IoT, ML, and BigQuery for predictive maintenance</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Accusamus et iusto odio dignissimos ducimus qui blanditiis</span>
+                        <span>Enhance quality assurance through AI-based visual inspection</span>
                     </li>
                     <li>
                         <i class="fa fa-check-circle"></i>
-                        <span>Nam libero tempore, cum soluta nobis est eligendi optio cumque</span>
+                        <span>Enable collaboration and innovation with scalable cloud infrastructure</span>
                     </li>
                 </ul>
             </div>
@@ -89,13 +85,14 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-time Monitoring">
+                            <img src="<?= $app_path ?>assets/images/services/style7/cloud-monitoring.png"
+                                alt="Real-time Visibility">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Real-Time Monitoring</h3>
+                            <h3 class="services-title">Real-Time Visibility</h3>
                             <p class="services-desc">
-                                Enables real-time status updates and diagnostics of ABB devices through seamless
-                                communication.
+                                Gain insights across operations using cloud-native tools for real-time tracking and
+                                analytics.
                             </p>
                         </div>
                     </div>
@@ -103,12 +100,14 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Easy Integration">
+                            <img src="<?= $app_path ?>assets/images/services/style7/system-integration.png"
+                                alt="Connected Operations">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Easy System Integration</h3>
+                            <h3 class="services-title">Connected Operations</h3>
                             <p class="services-desc">
-                                Supports integration with SCADA, PLCs, and BMS via Modbus TCP/IP and other protocols.
+                                Seamlessly integrate with ERP, MES, and IoT systems to unify manufacturing data and
+                                insights.
                             </p>
                         </div>
                     </div>
@@ -116,13 +115,14 @@ include("../includes/header.php");
                 <div class="col-lg-4 md-mb-60">
                     <div class="services-item">
                         <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Remote Accessibility">
+                            <img src="<?= $app_path ?>assets/images/services/style7/remote-access.png"
+                                alt="AI-Powered Optimization">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title">Remote Accessibility</h3>
+                            <h3 class="services-title">AI-Powered Optimization</h3>
                             <p class="services-desc">
-                                Facilitates remote configuration, control, and performance tracking of ABB switchgear
-                                systems.
+                                Leverage artificial intelligence and machine learning to automate quality checks and
+                                forecast maintenance needs.
                             </p>
                         </div>
                     </div>
@@ -133,6 +133,7 @@ include("../includes/header.php");
 
     <!-- Services Section End -->
 </div>
+
 <!-- Product Section End -->
 <?php
 include("../includes/footer.php");

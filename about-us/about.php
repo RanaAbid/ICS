@@ -16,91 +16,111 @@ include("../includes/header.php");
 </div>
 <!-- Breadcrumbs End -->
 
-<!-- Contact Section Start -->
-<div class="rs-contact pt-70 md-pt-80 pb-70">
+<!-- About Section Start -->
+<div class="rs-about gray-color pt-80 pb-80 md-pt-80 md-pb-80">
     <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 md-mb-30">
+                <div class="rs-animation-shape">
+                    <div class="images">
+                        <!-- <img src="<?= $app_path ?>assets/images/about/about-3.png" alt="Industrial Control Systems"> -->
+                        <img src="<?= $app_path ?>assets/images/sps/about/cap.png" alt="Industrial Control Systems"
+                            class="rounded">
+                    </div>
+                    <div class="middle-image2">
+                        <img class="dance3" src="<?= $app_path ?>assets/images/about/effect-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pl-60 md-pl-15">
+                <div class="contact-wrap">
+                    <div class="sec-title mb-30">
+                        <div class="sub-text style-bg">About Us</div>
+                        <h2 class="title pb-38">
+                            Enhancing Industrial Efficiency Through Control Systems
+                        </h2>
+                        <div class="desc pb-35">
+                            With decades of experience in automation and process control, we specialize in delivering
+                            reliable and secure Industrial Control System (ICS) solutions tailored for critical
+                            infrastructure and industrial environments.
+                        </div>
+                        <p class="margin-0 pb-15">
+                            Our team integrates SCADA, PLC, and DCS technologies to streamline operations, improve
+                            safety, and reduce downtime. We are committed to helping industries evolve with cutting-edge
+                            control solutions while ensuring the resilience and integrity of their operations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-image">
+            <img class="top dance" src="<?= $app_path ?>assets/images/about/dotted-3.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- About Section End -->
+<!-- Process Section Start -->
+<div class="rs-process style2 pt-70 md-pt-80 pb-70">
+    <div class="container">
+        <div class="sec-title2 text-center mb-45">
+            <span class="sub-text style-bg">Process</span>
+            <h2 class="title title2">
+                Our Working Process
+            </h2>
+        </div>
         <div class="row">
-            <div class="col-lg-4 md-mb-60">
-                <div class="contact-box">
-                    <div class="sec-title mb-45">
-                        <span class="sub-text new-text white-color">Let's Talk</span>
-                        <h2 class="title white-color">Speak With Expert Engineers.</h2>
-                    </div>
-                    <div class="address-box mb-25">
-                        <div class="address-icon">
-                            <i class="fa fa-home"></i>
+            <div class="col-lg-3 col-sm-6 md-mb-50">
+                <div class="addon-process">
+                    <div class="process-wrap">
+                        <div class="process-img">
+                            <img src="<?= $app_path ?>assets/images/process/1.png" alt="">
                         </div>
-                        <div class="address-text">
-                            <span class="label">Email:</span>
-                            <a href="tel:123222-8888">(123) 222-8888</a>
-                        </div>
-                    </div>
-                    <div class="address-box mb-25">
-                        <div class="address-icon">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="address-text">
-                            <span class="label">Phone:</span>
-                            <a href="#">support@spsnet.com</a>
-                        </div>
-                    </div>
-                    <div class="address-box">
-                        <div class="address-icon">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="address-text">
-                            <span class="label">Address:</span>
-                            <div class="desc">New Jesrsy, 1201, USA</div>
+                        <div class="process-text">
+                            <h3 class="title">Discovery</h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 pl-70 md-pl-15">
-                <div class="contact-widget">
-                    <div class="sec-title2 mb-40">
-                        <span class="sub-text contact mb-15">Get In Touch</span>
-                        <h2 class="title testi-title">Fill The Form Below</h2>
-
+            <div class="col-lg-3 col-sm-6 md-mb-50">
+                <div class="addon-process">
+                    <div class="process-wrap">
+                        <div class="process-img">
+                            <img src="<?= $app_path ?>assets/images/process/2.png" alt="">
+                        </div>
+                        <div class="process-text">
+                            <h3 class="title"> Planning</h3>
+                        </div>
                     </div>
-                    <div id="form-messages"></div>
-                    <form id="contact-form" method="post" action="">
-                        <fieldset>
-                            <div class="row">
-                                <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="name" name="name" placeholder="Name"
-                                        required="">
-                                </div>
-                                <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail"
-                                        required="">
-                                </div>
-                                <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="phone" name="phone"
-                                        placeholder="Phone Number" required="">
-                                </div>
-                                <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                                    <input class="from-control" type="text" id="website" name="website"
-                                        placeholder="Your Website" required="">
-                                </div>
-
-                                <div class="col-lg-12 mb-30">
-                                    <textarea class="from-control" id="message" name="message"
-                                        placeholder="Your message Here" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="btn-part">
-                                <div class="form-group mb-0">
-                                    <input class="readon learn-more submit" type="submit" value="Submit Now">
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="addon-process">
+                    <div class="process-wrap">
+                        <div class="process-img">
+                            <img src="<?= $app_path ?>assets/images/process/3.png" alt="">
+                        </div>
+                        <div class="process-text">
+                            <h3 class="title">Execute</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="addon-process">
+                    <div class="process-wrap">
+                        <div class="process-img">
+                            <img src="<?= $app_path ?>assets/images/process/4.png" alt="">
+                        </div>
+                        <div class="process-text">
+                            <h3 class="title">Deliver</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Contact Section Start -->
+<!-- Process Section End -->
 <?php
 include("../includes/footer.php");
 ?>

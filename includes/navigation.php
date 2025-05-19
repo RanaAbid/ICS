@@ -62,7 +62,7 @@
                                                     <a href="<?= $app_path ?>">Home</a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?= $app_path ?>about-us/">About Us</a>
+                                                    <a href="<?= $app_path ?>about-us/about.php">About Us</a>
                                                 </li>
                                                 <li class="menu-item-has-children">
                                                     <a href="#">Products</a>
