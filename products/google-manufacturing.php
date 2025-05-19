@@ -21,7 +21,7 @@ include("../includes/header.php");
 </div>
 <!-- Breadcrumbs End -->
 <!-- Product Section Start -->
-<div class="rs-contact pt-120 md-pt-80">
+<div class="rs-contact pt-60 pb-60">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
@@ -42,11 +42,16 @@ include("../includes/header.php");
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/about/about-us/google-manufacturing.jpg"
-                        alt="Google Cloud for Manufacturing">
+                    <img src="<?= $app_path ?>assets/images/sps/products/2.png" alt="Google Cloud for Manufacturing">
                 </div>
             </div>
-            <div class="col-lg-8 md-mb-50">
+        </div>
+    </div>
+</div>
+<div class="rs-contact gray-color pb-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12 md-mb-50">
                 <div class="services-img">
                     <img src="assets/images/services/single/google-cloud-factory.jpg" alt="">
                 </div>
@@ -77,63 +82,56 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-
-    <!-- Services Section Start -->
-    <div class="rs-services style5 pt-120 pb-120 md-pt-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/cloud-monitoring.png"
-                                alt="Real-time Visibility">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Real-Time Visibility</h3>
-                            <p class="services-desc">
-                                Gain insights across operations using cloud-native tools for real-time tracking and
-                                analytics.
-                            </p>
-                        </div>
+</div>
+<!-- Services Section Start -->
+<div class="rs-services style5 pt-60 pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-time Monitoring">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Real-Time Visibility</h3>
+                        <p class="services-desc">
+                            Gain insights across operations using cloud-native tools for real-time tracking and
+                            analytics.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/system-integration.png"
-                                alt="Connected Operations">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Connected Operations</h3>
-                            <p class="services-desc">
-                                Seamlessly integrate with ERP, MES, and IoT systems to unify manufacturing data and
-                                insights.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Easy Integration">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Connected Operations</h3>
+                        <p class="services-desc">
+                            Seamlessly integrate with ERP, MES, and IoT systems to unify manufacturing data and
+                            insights.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/remote-access.png"
-                                alt="AI-Powered Optimization">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">AI-Powered Optimization</h3>
-                            <p class="services-desc">
-                                Leverage artificial intelligence and machine learning to automate quality checks and
-                                forecast maintenance needs.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Remote Accessibility">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">AI-Powered Optimization</h3>
+                        <p class="services-desc">
+                            Leverage artificial intelligence and machine learning to automate quality checks and
+                            forecast maintenance needs.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Services Section End -->
 </div>
-
 <!-- Product Section End -->
 <?php
 include("../includes/footer.php");

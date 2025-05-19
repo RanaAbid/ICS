@@ -21,7 +21,7 @@ include("../includes/header.php");
 </div>
 <!-- Breadcrumbs End -->
 <!-- Solutions Section Start -->
-<div class="rs-contact pt-120 md-pt-80">
+<div class="rs-contact pt-60 pb-60">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
@@ -46,11 +46,17 @@ include("../includes/header.php");
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/services/single/1.jpg"
-                        alt="Digital Architecture Configurator" class="rounded-pill">
+                    <img src="<?= $app_path ?>assets/images/sps/solution/10.jpg" alt="Digital Architecture Configurator"
+                        class="rounded-pill">
                 </div>
             </div>
-            <div class="col-lg-8 md-mb-50">
+        </div>
+    </div>
+</div>
+<div class="rs-contact gray-color pb-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12 md-mb-50">
                 <h2 class="mt-34">Responsive Pixel Perfect Design</h2>
                 <p>
                     Our Control Panel Designer is crafted with user-centric design in mind. Enjoy a pixel-perfect,
@@ -79,49 +85,130 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-
-    <!-- Services Section Start -->
-    <div class="rs-services style5 pt-120 pb-120 md-pt-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png"
-                                alt="Visual Design Interface">
+</div>
+<!-- Services Section Start -->
+<div class="rs-services main-home style3 bg13 pt-60 pb-60">
+    <div class="container pt-relative">
+        <div class="sec-top">
+            <h2 class="title wow fadeInDown">Solutions for Industrial Control Systems</h2>
+            <p class="subtitle">Smarter, Safer, and Secure</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-25">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/1.png" alt="ICS Monitoring">
                         </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Visual Design Interface</h3>
-                            <p class="services-desc">
-                                Build your electrical architecture with an easy-to-use graphical interface and component
-                                library.
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">ICS Monitoring</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Gain real-time insights and operational awareness across all your industrial assets and
+                                control systems.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="System Validation">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-25">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/2.png" alt="Industrial Firewall">
                         </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Built-in System Validation</h3>
-                            <p class="services-desc">
-                                Instantly check for wiring errors, standard compliance, and compatibility before
-                                deployment.
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">Industrial Firewalls</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Protect OT networks with advanced firewall solutions that support industrial protocols
+                                and real-time communication.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="CAD & Export Tools">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-25">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/3.png" alt="Patch Management">
                         </div>
-                        <div class="services-content">
-                            <h3 class="services-title">CAD & Export Tools</h3>
-                            <p class="services-desc">
-                                Generate CAD-ready files, schematics, and panel layouts for integration.
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">Patch Management</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Ensure your control systems stay updated with safe and scheduled patching processes
+                                tailored for ICS environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 md-mb-25">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/4.png" alt="Asset Discovery">
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">Asset Discovery</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Identify, classify, and map all devices and control systems within your industrial
+                                network for enhanced visibility.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 sm-mb-25">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/5.png" alt="Anomaly Detection">
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">Anomaly Detection</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Detect irregular behavior and security threats in real time using advanced analytics
+                                tailored for ICS environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-item shadow">
+                    <div class="services-icon">
+                        <div class="image-part">
+                            <img src="<?= $app_path ?>assets/images/services/style6/6.png" alt="Secure Remote Access">
+                        </div>
+                    </div>
+                    <div class="services-content">
+                        <div class="services-text">
+                            <h3 class="services-title"><a href="#">Secure Remote Access</a></h3>
+                        </div>
+                        <div class="services-desc">
+                            <p>
+                                Facilitate remote operations and maintenance with encrypted, role-based access to
+                                industrial systems.
                             </p>
                         </div>
                     </div>
@@ -129,10 +216,8 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-    <!-- Services Section End -->
 </div>
-
-<!-- Solutions Section End -->
+<!-- Services Section End -->
 <?php
 include("../includes/footer.php");
 ?>

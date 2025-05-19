@@ -21,7 +21,7 @@ include("../includes/header.php");
 </div>
 <!-- Breadcrumbs End -->
 <!-- Product Section Start -->
-<div class="rs-contact pt-120 md-pt-80">
+<div class="rs-contact pt-60 pb-60">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
@@ -45,10 +45,16 @@ include("../includes/header.php");
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/about/about-us/1.jpg" alt="ABB Smart Communication Card">
+                    <img src="<?= $app_path ?>assets/images/sps/products/1.png" alt="ABB Smart Communication Card">
                 </div>
             </div>
-            <div class="col-lg-8 md-mb-50">
+        </div>
+    </div>
+</div>
+<div class="rs-contact gray-color pb-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12 md-mb-50">
                 <div class="services-img">
                     <img src="assets/images/services/single/1.jpg" alt="">
                 </div>
@@ -81,57 +87,57 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-
-    <!-- Services Section Start -->
-    <div class="rs-services style5 pt-120 pb-120 md-pt-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-time Monitoring">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Real-Time Monitoring</h3>
-                            <p class="services-desc">
-                                Enables real-time status updates and diagnostics of ABB devices through seamless
-                                communication.
-                            </p>
-                        </div>
+</div>
+<!-- Services Section Start -->
+<div class="rs-services style5 pt-60 pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Real-time Monitoring">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Real-Time Monitoring</h3>
+                        <p class="services-desc">
+                            Enables real-time status updates and diagnostics of ABB devices through seamless
+                            communication.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Easy Integration">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Easy System Integration</h3>
-                            <p class="services-desc">
-                                Supports integration with SCADA, PLCs, and BMS via Modbus TCP/IP and other protocols.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Easy Integration">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Easy System Integration</h3>
+                        <p class="services-desc">
+                            Supports integration with SCADA, PLCs, and BMS via Modbus TCP/IP and other protocols.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Remote Accessibility">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Remote Accessibility</h3>
-                            <p class="services-desc">
-                                Facilitates remote configuration, control, and performance tracking of ABB switchgear
-                                systems.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Remote Accessibility">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Remote Accessibility</h3>
+                        <p class="services-desc">
+                            Facilitates remote configuration, control, and performance tracking of ABB switchgear
+                            systems.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Services Section End -->
+<!-- Services Section End -->
 </div>
 <!-- Product Section End -->
 <?php

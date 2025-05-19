@@ -21,7 +21,7 @@ include("../includes/header.php");
 </div>
 <!-- Breadcrumbs End -->
 <!-- Product Section Start -->
-<div class="rs-contact pt-120 md-pt-80">
+<div class="rs-contact pt-60 pb-60">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 md-mb-60">
@@ -45,13 +45,16 @@ include("../includes/header.php");
             </div>
             <div class="col-lg-6">
                 <div class="software-img">
-                    <img src="<?= $app_path ?>assets/images/about/about-us/appsheet.jpg" alt="Google AppSheet">
+                    <img src="<?= $app_path ?>assets/images/about/about-us/1.jpg" alt="Google AppSheet">
                 </div>
             </div>
-            <div class="col-lg-8 md-mb-50">
-                <div class="services-img">
-                    <img src="assets/images/services/single/appsheet-demo.jpg" alt="AppSheet Demo">
-                </div>
+        </div>
+    </div>
+</div>
+<div class="rs-contact gray-color pb-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12 md-mb-50">
                 <h2 class="mt-34">Responsive Pixel Perfect Design</h2>
                 <p>
                     Google AppSheet delivers fully responsive, pixel-perfect applications that look great across
@@ -79,60 +82,56 @@ include("../includes/header.php");
             </div>
         </div>
     </div>
-
-    <!-- Services Section Start -->
-    <div class="rs-services style5 pt-120 pb-120 md-pt-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Workflow Automation">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Workflow Automation</h3>
-                            <p class="services-desc">
-                                Automate repetitive tasks with custom workflows and notifications powered by AppSheet's
-                                logic builder.
-                            </p>
-                        </div>
+</div>
+<!-- Product Section Start -->
+<div class="rs-services style5 pt-60 pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/1.png" alt="Workflow Automation">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Workflow Automation</h3>
+                        <p class="services-desc">
+                            Automate repetitive tasks with custom workflows and notifications powered by AppSheet's
+                            logic builder.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Data Integration">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Seamless Data Integration</h3>
-                            <p class="services-desc">
-                                Connect and sync data from multiple sources including Google Sheets, Excel, SQL,
-                                Salesforce, and more.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/2.png" alt="Data Integration">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Seamless Data Integration</h3>
+                        <p class="services-desc">
+                            Connect and sync data from multiple sources including Google Sheets, Excel, SQL,
+                            Salesforce, and more.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 md-mb-60">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Cross-Platform Access">
-                        </div>
-                        <div class="services-content">
-                            <h3 class="services-title">Cross-Platform Accessibility</h3>
-                            <p class="services-desc">
-                                Deploy applications that work on mobile devices, tablets, and browsers—ensuring access
-                                from anywhere.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 md-mb-60">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="<?= $app_path ?>assets/images/services/style7/3.png" alt="Cross-Platform Access">
+                    </div>
+                    <div class="services-content">
+                        <h3 class="services-title">Cross-Platform Accessibility</h3>
+                        <p class="services-desc">
+                            Deploy applications that work on mobile devices, tablets, and browsers—ensuring access
+                            from anywhere.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Services Section End -->
 </div>
-
 <!-- Product Section End -->
 <?php
 include("../includes/footer.php");
