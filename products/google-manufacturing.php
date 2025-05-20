@@ -1,5 +1,5 @@
 <?php
-$page_title = "Products - ICS";
+$page_title = "Google Cloud for Manufacturing - ICS";
 include("../includes/header.php");
 ?>
 <style>
@@ -10,12 +10,12 @@ include("../includes/header.php");
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs img3">
     <div class="breadcrumbs-inner text-center">
-        <h1 class="page-title">Products</h1>
+        <h1 class="page-title">Google Cloud for Manufacturing</h1>
         <ul>
-            <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                <a class="active" href="index.html">Home</a>
+            <li>
+                <a class="active" href="<?= $app_path ?>">Products</a>
             </li>
-            <li>Products</li>
+            <li>Google Cloud for Manufacturing</li>
         </ul>
     </div>
 </div>

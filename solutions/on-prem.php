@@ -1,5 +1,5 @@
 <?php
-$page_title = "Solutions - ICS";
+$page_title = "On-Prem - ICS";
 include("../includes/header.php");
 ?>
 <style>
@@ -10,12 +10,12 @@ include("../includes/header.php");
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs img3">
     <div class="breadcrumbs-inner text-center">
-        <h1 class="page-title">Solutions</h1>
+        <h1 class="page-title">On-Prem</h1>
         <ul>
-            <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                <a class="active" href="index.html">Home</a>
+            <li>
+                <a class="active" href="<?= $app_path ?>">Solutions</a>
             </li>
-            <li>Solutions</li>
+            <li>On-Prem</li>
         </ul>
     </div>
 </div>

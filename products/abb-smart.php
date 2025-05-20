@@ -1,5 +1,5 @@
 <?php
-$page_title = "Products - ICS";
+$page_title = "ABB Smart Communication Card - ICS";
 include("../includes/header.php");
 ?>
 <style>
@@ -10,12 +10,12 @@ include("../includes/header.php");
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs img3">
     <div class="breadcrumbs-inner text-center">
-        <h1 class="page-title">Products</h1>
+        <h1 class="page-title">ABB Smart Communication Card</h1>
         <ul>
-            <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                <a class="active" href="index.html">Home</a>
+            <li>
+                <a class="active" href="<?= $app_path ?>">Products</a>
             </li>
-            <li>Products</li>
+            <li>ABB Smart Communication Card</li>
         </ul>
     </div>
 </div>

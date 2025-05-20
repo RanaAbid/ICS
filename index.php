@@ -3,7 +3,7 @@ $page_title = "Home - ICS";
 include("includes/header.php");
 ?>
 <!-- Banner Section Start -->
-<div class="rs-banner style3 rs-rain-animate modify1">
+<div class="rs-banner style3 modify1">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -50,7 +50,7 @@ include("includes/header.php");
                             </p>
                         </div>
                         <div class="services-text">
-                            <h3 class="services-title"><a href="#">Read More...</a></h3>
+                            <h3 class="services-title"><a href="<?= $app_path ?>products/abb-smart.php">Read More...</a></h3>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ include("includes/header.php");
                             </p>
                         </div>
                         <div class="services-text">
-                            <h3 class="services-title"><a href="#">Read More...</a></h3>
+                            <h3 class="services-title"><a href="<?= $app_path ?>products/google-manufacturing.php">Read More...</a></h3>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ include("includes/header.php");
                             </p>
                         </div>
                         <div class="services-text">
-                            <h3 class="services-title"><a href="#">Read More...</a></h3>
+                            <h3 class="services-title"><a href="<?= $app_path ?>products/google-app-sheet.php">Read More...</a></h3>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ include("includes/header.php");
                         </p>
                     </div>
                     <div class="btn-part">
-                        <a class="readon learn-more contact-us" href="#">Learn More</a>
+                        <a class="readon learn-more contact-us" href="<?= $app_path ?>about-us/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -164,38 +164,38 @@ include("includes/header.php");
             data-md-device-dots="false">
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/sps/solution/q1.png" alt="images"></a>
+                    <a href="<?= $app_path ?>solutions/digital-architecture.php"><img src="assets/images/sps/solution/q1.png" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
-                    <h3 class="title"><a href="#">Digital Architecture Configurator and Control Panel Designer</a></h3>
-                    <span class="category"><a href="#">Read More ...</a></span>
+                    <h3 class="title"><a href="<?= $app_path ?>solutions/digital-architecture.php">Digital Architecture Configurator and Control Panel Designer</a></h3>
+                    <span class="category"><a href="<?= $app_path ?>solutions/digital-architecture.php">Read More ...</a></span>
                 </div>
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/sps/solution/q2.jpg" alt="images"></a>
+                    <a href="<?= $app_path ?>solutions/smart-monitoring.php"><img src="assets/images/sps/solution/q2.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
-                    <h3 class="title"><a href="#">Smart Monitoring and Control Application</a></h3>
-                    <span class="category"><a href="#">Read More ...</a></span>
+                    <h3 class="title"><a href="<?= $app_path ?>solutions/smart-monitoring.php">Smart Monitoring and Control Application</a></h3>
+                    <span class="category"><a href="<?= $app_path ?>solutions/smart-monitoring.php">Read More ...</a></span>
                 </div>
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/sps/solution/q3.jpg" alt="images"></a>
+                    <a href="<?= $app_path ?>solutions/on-prem.php"><img src="assets/images/sps/solution/q3.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
-                    <h3 class="title"><a href="#">On-Prem Solution</a></h3>
-                    <span class="category"><a href="#">Read More ...</a></span>
+                    <h3 class="title"><a href="<?= $app_path ?>solutions/on-prem.php">On-Prem Solution</a></h3>
+                    <span class="category"><a href="<?= $app_path ?>solutions/on-prem.php">Read More ...</a></span>
                 </div>
             </div>
             <div class="project-item d-flex">
                 <div class="project-img">
-                    <a href="#"><img src="assets/images/sps/solution/q4.jpg" alt="images"></a>
+                    <a href="<?= $app_path ?>solutions/pumping.php"><img src="assets/images/sps/solution/q4.jpg" alt="images"></a>
                 </div>
                 <div class="project-content flex-fill">
-                    <h3 class="title"><a href="#">Pumping Application</a></h3>
-                    <span class="category"><a href="#">Read More ...</a></span>
+                    <h3 class="title"><a href="<?= $app_path ?>solutions/pumping.php">Pumping Application</a></h3>
+                    <span class="category"><a href="<?= $app_path ?>solutions/pumping.php">Read More ...</a></span>
                 </div>
             </div>
         </div>
