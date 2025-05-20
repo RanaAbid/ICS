@@ -60,10 +60,10 @@ include("../includes/header.php");
 </div>
 <!-- About Section End -->
 <!-- Services Section Start -->
-<div class="rs-services style3 modify1 gray-color pb-60">
+<div class="rs-services style3 modify1 gray-color pb-60 pt-80">
     <div class="container">
         <div class="sec-title2 text-center mb-45">
-            <span class="sub-text gold-color">Services</span>
+            <div class="sub-text style-bg">Services</div>
             <h2 class="title title2">
                 Explore Our All Services We Offer to Customers
             </h2>
@@ -90,7 +90,7 @@ include("../includes/header.php");
                                 smart decision-making.
                             </p>
                         </div>
-                        <div class="services-button"><a href="#">Read More</a></div>
+                        <!-- <div class="services-button"><a href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ include("../includes/header.php");
                                 protect enterprise assets.
                             </p>
                         </div>
-                        <div class="services-button"><a href="#">Read More</a></div>
+                        <!-- <div class="services-button"><a href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@ include("../includes/header.php");
                                 infrastructure services.
                             </p>
                         </div>
-                        <div class="services-button"><a href="#">Read More</a></div>
+                        <!-- <div class="services-button"><a href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ include("../includes/header.php");
                                 continuous quality improvement.
                             </p>
                         </div>
-                        <div class="services-button"><a href="#">Read More</a></div>
+                        <!-- <div class="services-button"><a href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ include("../includes/header.php");
                     </div>
                     <div class="services-content">
                         <div class="services-text">
-                            <h3 class="title"><a href="#">Operation Support Helpdesk Team</a></h3>
+                            <h3 class="title"><a href="#">Operation Support Helpdesk</a></h3>
                         </div>
                         <div class="services-desc">
                             <p>
@@ -194,7 +194,7 @@ include("../includes/header.php");
                                 operations and end-user satisfaction.
                             </p>
                         </div>
-                        <div class="services-button"><a href="#">Read More</a></div>
+                        <!-- <div class="services-button"><a href="#">Read More</a></div> -->
                     </div>
                 </div>
             </div>
